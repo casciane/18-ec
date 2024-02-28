@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+     <link rel="icon" href="coração.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style1.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estrutura condicional</title>
+</head>
+<body>
+
+    <div class="formulario">
+        <h2> Os locais mais interesantas para ir com os amigos:</h2>
+        <br>
+        <h1>verificação de idade</h1>
+        <p>por favor, insira sua idade:</p>
+        <input type="number" name="" id="idadeInput">
+        <button onclick="verificaridade()">Verificar</button>
+     </div>
+     
+
+     <script>
+        function verificaridade(){
+            var idade = parseInt( document.getElementById("idadeInput").value)
+
+
+            if(idade >= 18) {
+                window.location.href= 'maior.html';
+            } 
+            
+            else {
+                window.location.href= 'menor.html';
+            }
+        }
+     </script>
+     <br><br>
+
+
+<footer>
+    <p> Criado por Cassiane Pinheiro &copy; 27\02\2024</p>
+</footer>
+     
+    
+</body>
+</html>

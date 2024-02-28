@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body{
+    background: rgb(168, 81, 41);
+    margin: center;
+    height: auto;
+    padding: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
